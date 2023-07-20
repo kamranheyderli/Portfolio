@@ -83,13 +83,13 @@ body {
   }
 
   .swiper-slide {
-    width: 18rem !important;
-    height: 35rem !important;
+    width: 16rem !important;
+    height: 32rem !important;
   }
 
   .swiper-slide img {
-    width: 18rem !important;
-    height: 35rem !important;
+    width: 16rem !important;
+    height: 32rem !important;
   }
 }
 

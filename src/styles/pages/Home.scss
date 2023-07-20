@@ -97,6 +97,7 @@
     .about_image {
         display: flex;
         align-items: center;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
 
         img {
             width: 450px;
@@ -109,6 +110,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
         
 
         p {

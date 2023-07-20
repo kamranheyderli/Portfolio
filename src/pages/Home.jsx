@@ -16,10 +16,7 @@ import { Link } from 'react-router-dom';
 const Home = () => {
     return (
         <>
-
-
             <Navbar />
-            {/* END NAVBAR SECTION */}
 
             <section className='home_wrapper'>
                 <div className="container">
@@ -57,29 +54,6 @@ const Home = () => {
                     </div>
                 </div>
             </section>
-
-            {/* <section id='skills' className='skills_wrapper'>
-                <div className="container">
-                    <div className="row">
-                        <div className="col-lg-12">
-                            <div className="skills_header">
-                                <h2>My Skills</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <motion.div
-                        className="row gap-y-5">
-                        {Card.map((item) => {
-                            return (
-                                <SkillsCard image={item.image} />
-                            )
-                        })
-
-                        }
-                    </motion.div>
-                </div>
-            </section> */}
-
             <section id='slider' className='slider_wrapper'>
                 <div className="container">
                    <div className="row">
@@ -99,9 +73,6 @@ const Home = () => {
 
                 </div>
             </section>
-
-
-
             <section id='about' className='about_wrapper'>
                 <div className="container">
                     <div className="row">

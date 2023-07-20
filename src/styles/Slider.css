@@ -85,11 +85,12 @@ body {
   .swiper-slide {
     width: 16rem !important;
     height: 32rem !important;
+   padding: 15px;
   }
 
   .swiper-slide img {
-    width: 16rem !important;
-    height: 32rem !important;
+    width: 13rem !important;
+    height: 25rem !important;
   }
 }
 

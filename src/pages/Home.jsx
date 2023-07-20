@@ -17,7 +17,6 @@ const Home = () => {
     return (
         <>
             <Navbar />
-
             <section className='home_wrapper'>
                 <div className="container">
                     <div className="row">
@@ -48,21 +47,22 @@ const Home = () => {
                                 animate={{ x: 0 }}
                                 transition={{ duration: 4 }}
                                 className="portfolio_image">
-                                <img src='assets/image/IMG_8694.JPG' alt="Kamran" />
+                                <img src='/assets/image/IMG_8694.JPG' alt="Kamran" />
                             </motion.div>
                         </div>
                     </div>
                 </div>
+
             </section>
             <section id='slider' className='slider_wrapper'>
                 <div className="container">
-                   <div className="row">
-                   <div className="col-lg-12">
+                    <div className="row">
+                        <div className="col-lg-12">
                             <div className="skills_header">
                                 <h2>My Skills</h2>
                             </div>
                         </div>
-                   </div>
+                    </div>
 
                     <div className="row">
                         <div className="col-lg-12">

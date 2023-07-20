@@ -11,10 +11,11 @@ export const navbarRoutes = [
     },
    
     {
-        id: "4",
+        id: "3",
         name:"About",
         url: "about",
     },
+   
 
 
 ];

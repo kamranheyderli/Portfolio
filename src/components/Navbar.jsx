@@ -38,7 +38,7 @@ const Navbar = () => {
                                     )
                                 })
                             }
-                            <a href="https://wa.me/994516621599" target="_blank">Contact</a>
+                            <a href="https://wa.me/994516621599" target="_blank" rel="noopener noreferrer">Contact</a>
                         </ul>
                     </nav>
                     <div style={{ color: "white" }} onClick={handleClick} className="hamburger">
@@ -67,6 +67,7 @@ const Navbar = () => {
                                     )
                                 })
                             }
+                             <a href="https://wa.me/994516621599" target="_blank" rel="noopener noreferrer">Contact</a>
                         </ul>
                     </nav>
                 </div>

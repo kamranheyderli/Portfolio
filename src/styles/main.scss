@@ -1,0 +1,22 @@
+// tailwind css links
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import '~bootstrap/scss/bootstrap';
+
+@import 'swiper/css';
+@import 'swiper/css/effect-coverflow';
+@import 'swiper/css/pagination';
+@import 'swiper/css/navigation';
+
+// components links
+@import "./components/Navbar.scss";
+@import"./components/SkillsCard.scss";
+@import"./components/Loader.scss";
+@import "./Slider.css";
+
+
+
+// pages link
+@import "./pages/Home.scss"

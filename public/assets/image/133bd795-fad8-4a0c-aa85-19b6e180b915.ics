@@ -1,0 +1,32 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Calendly//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+BEGIN:VEVENT
+DTSTAMP:20230718T194128Z
+UID:calendly-758327713
+DTSTART:20230727T120000Z
+DTEND:20230727T124500Z
+CLASS:PRIVATE
+DESCRIPTION:Event Name: Front End Development Program - Test stage\nEvent D
+ escription: 🎉 Welcome to our Front End Development Program Test Stage B
+ ooking page! 📝 On this page\, you can book your test stage for the Fron
+ t End Development Program. You will find an overview of the test stage\, i
+ ncluding information about its duration and requirements.⏰ Choose your p
+ referred option from the available booking options and proceed with the bo
+ oking process.✅ Once you have successfully booked your test stage\, you 
+ will receive a confirmation message and email with all the necessary detai
+ ls.🔄 In case you need to reschedule or cancel\, refer to the instructio
+ ns provided in the confirmation email.🤝 For any assistance or support\,
+  feel free to reach out to our team.🍀 Best of luck with your test stage
+ !\nDate & Time: 16:00 - 16:45 (Asia/Baku) on Thursday\, July 27\, 2023\n\n
+ Need to make changes to this event?\nCancel: https://calendly.com/cancella
+ tions/133bd795-fad8-4a0c-aa85-19b6e180b915\nReschedule: https://calendly.c
+ om/reschedulings/133bd795-fad8-4a0c-aa85-19b6e180b915\n
+LOCATION:29\, Neftchi Gurban street\, Sabayil district\, Baku\, Azerbaijan 
+ Tel +994 (12) 937
+SUMMARY:Front End Development Program - Test stage with ABB Tech Academy
+TRANSP:OPAQUE
+END:VEVENT
+END:VCALENDAR

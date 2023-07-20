@@ -1,11 +1,10 @@
-import { color } from 'framer-motion';
+
 import React from 'react';
 import { TypeAnimation } from 'react-type-animation';
 
 
 
 const TextAnimation = () => {
-    const text = "Salam, Dünya!";
     return (
         <TypeAnimation
             sequence={[

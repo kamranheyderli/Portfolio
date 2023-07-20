@@ -1,7 +1,6 @@
 import React from 'react';
 // component
 import TextAnimation from "../components/TextAnimation";
-import SkillsCard from '../components/SkillsCard';
 import Navbar from "../components/Navbar";
 import Slider from "../components/Slider"
 // frame motion
@@ -11,7 +10,6 @@ import { FaLinkedinIn, } from "react-icons/fa";
 import { ImFacebook } from "react-icons/im";
 import { AiFillGithub, AiOutlineInstagram } from "react-icons/ai";
 // helper
-import { Card } from "../helpers/skillsCards"
 import { Link } from 'react-router-dom';
 
 

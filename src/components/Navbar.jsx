@@ -5,7 +5,6 @@ import { Link } from 'react-scroll';
 import { GiHamburgerMenu } from "react-icons/gi";
 import { AiOutlineClose } from "react-icons/ai";
 // react hooks
-import { useState, useEffect } from 'react';
 
 import { useDispatch, useSelector } from "react-redux";
 import { handleOpen } from "../store/navbar/navbarSlice";
@@ -13,31 +12,15 @@ import { handleOpen } from "../store/navbar/navbarSlice";
 
 
 const Navbar = () => {
-    // const [nav, setNav] = useState(false);
 
     const dispatch = useDispatch();
     const isOpenNavbar = useSelector((state) => state.navbar.isOpen);
-    const [isFixed, setIsFixed] = useState(false);
-    useEffect(() => {
-        const handleScroll = () => {
-            if (window.scrollY >= 130) {
-                setIsFixed(true);
-            } else {
-                setIsFixed(false);
-            }
-        };
-
-        window.addEventListener("scroll", handleScroll);
-
-        return () => {
-            window.removeEventListener("scroll", handleScroll);
-        };
-    }, []);
+   
 
     const handleClick = () => {
         dispatch(handleOpen(!isOpenNavbar));
     };
-
+  
 
     return (
         <div>

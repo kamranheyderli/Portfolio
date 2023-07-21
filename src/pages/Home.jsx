@@ -47,13 +47,13 @@ const Home = () => {
                                 animate={{ x: 0 }}
                                 transition={{ duration: 4 }}
                                 className="portfolio_image">
-                                <img src='/assets/image/IMG_8694.JPG' alt="Kamran" />
+                                <img src='/assets/image/kamran_bg.png' alt="Kamran" />
                             </motion.div>
                         </div>
                     </div>
                 </div>
-
             </section>
+
             <section id='slider' className='slider_wrapper'>
                 <div className="container">
                     <div className="row">
@@ -115,7 +115,6 @@ const Home = () => {
 
             <footer>
                 <div className="footer_text">
-                    <p>This is the footer of my website.</p>
                     <p>Contact us at: kamranheyderli049@gmail.com</p>
                 </div>
             </footer>

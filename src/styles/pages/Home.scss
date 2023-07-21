@@ -2,6 +2,10 @@
     width: 100%;
     height: auto;
     background-color: white;
+    background-image: url("https://img.freepik.com/free-vector/simple-blue-curve-background-vector-business_53876-171630.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+
     .portfolio_content {
         display: flex;
         flex-direction: column;
@@ -15,7 +19,7 @@
             font-family: Arial, Helvetica, sans-serif;
         }
 
-        span {
+        span{
             font-size: 60px;
             font-weight: 700;
             font-family: Arial, Helvetica, sans-serif;
@@ -55,8 +59,8 @@
         }
 
         button {
-            width: 150px;
-            height: 40px;
+            width: 170px;
+            height: 55px;
             background-color: rgb(15, 15, 105);
             border-radius: 10px;
 
@@ -83,13 +87,17 @@
     }
 
 }
+
 .about_wrapper {
     width: 100%;
     height: auto;
-    background-color: white;
+    // background-color: white;
     display: flex;
     justify-content: center;
     margin-top: 20px;
+    background-image: url("https://t3.ftcdn.net/jpg/03/50/02/12/360_F_350021263_w1KatF6CeZuT2XcM6iMAPsg63lOoQacC.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
 
     .about_image {
         display: flex;
@@ -106,6 +114,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        font-family: Arial, Helvetica, sans-serif;
 
 
         p {
@@ -141,6 +150,9 @@ footer {
 .slider_wrapper {
     width: 100%;
     height: auto;
+    background-image: url("https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v1016-a-02-ksh6oqdp.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=8bf67d33cc68e3f340e23db016c234dd");
+    background-size: cover;
+    background-repeat: no-repeat;
 
     .skills_header {
         display: flex;
@@ -164,6 +176,15 @@ footer {
         .portfolio_content {
             row-gap: 10px;
             display: flex;
+            ul{
+                li{
+                    border: 1px solid white;
+                    outline: 1px solid white;
+                    a{
+                        color: white;
+                    }
+                }
+            }
 
             h2 {
                 font-size: 30px;

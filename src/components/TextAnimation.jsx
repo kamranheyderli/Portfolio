@@ -16,7 +16,7 @@ const TextAnimation = () => {
             ]}
             wrapper="span"
             speed={40}
-            style={{ fontSize: '2em', display: 'inline-block', color:"orange",fontFamily:"Arial, Helvetica, sans-serif;"}}
+            style={{ fontSize: '3em', display: 'inline-block', color:"orange", fontFamily:"Arial, Helvetica, sans-serif",fontWeight:"700"}}
             repeat={Infinity}
         />
     );

@@ -30,15 +30,12 @@ const Slider = () => {
           Card.map((item) => {
             return (
               <SwiperSlide key={item.id}>
-                <img src={item.image} alt="slide_image" />
+                <img src={item.image} alt="slide_image" /> 
               </SwiperSlide>
             )
           })
 
         }
-
-
-
 
         <div className="slider-controler">
           <div className="swiper-button-prev slider-arrow">
